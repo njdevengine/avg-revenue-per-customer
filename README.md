@@ -10,3 +10,5 @@ This can be done by making sure the directory has read write access
 
 this can be done in the terminal using
 chmod a+rX /users/your_username/ /users/your_username/downloads /users/your_username/downloads/payments_data.csv
+
+This code needs to be refactored to not create a new table every query. Work in progress will update
