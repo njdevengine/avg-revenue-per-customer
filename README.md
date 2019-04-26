@@ -13,8 +13,9 @@ chmod a+rX /users/your_username/ /users/your_username/downloads /users/your_user
 
 This code needs to be refactored to not create a new table every query. Work in progress will update.
 use the following syntax.
-
+```
 UPDATE A
-SET A.c1 = expresion
+SET A.c1 = expression
 FROM B
 WHERE A.c2 = B.c2;
+```
